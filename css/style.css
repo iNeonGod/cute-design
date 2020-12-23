@@ -1,0 +1,98 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    color: #4B3E45;
+}
+
+body {
+    background-color: #FEA5AB;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F9DABD;
+    border-radius: 0px 0px 20px 20px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+    width: 100%;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    text-decoration: none;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 630px;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+.card p {
+    color: #D6454F;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #F9DABD;
+}
+
+.about h2 {
+    color: #D6454F;
+}
+
+.about p {
+    max-width: 630px;
+}
+
+button {
+    background-color: #4B3E45;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 30px 60px;
+    border: 0px;
+    font-weight: bold;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.services div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
